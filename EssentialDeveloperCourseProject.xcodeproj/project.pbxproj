@@ -11,6 +11,7 @@
 		F76B1AAD29376638000F4128 /* EssentialDeveloperCourseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76B1AA229376637000F4128 /* EssentialDeveloperCourseProject.framework */; };
 		F76B1AB229376638000F4128 /* EssentialDeveloperCourseProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B1AB129376638000F4128 /* EssentialDeveloperCourseProjectTests.swift */; };
 		F76B1AB329376638000F4128 /* EssentialDeveloperCourseProject.h in Headers */ = {isa = PBXBuildFile; fileRef = F76B1AA529376637000F4128 /* EssentialDeveloperCourseProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F76B1ABD2937671D000F4128 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B1ABC2937671D000F4128 /* FeedItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		F76B1AA629376637000F4128 /* EssentialDeveloperCourseProject.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialDeveloperCourseProject.docc; sourceTree = "<group>"; };
 		F76B1AAC29376638000F4128 /* EssentialDeveloperCourseProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialDeveloperCourseProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76B1AB129376638000F4128 /* EssentialDeveloperCourseProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialDeveloperCourseProjectTests.swift; sourceTree = "<group>"; };
+		F76B1ABC2937671D000F4128 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				F76B1AA529376637000F4128 /* EssentialDeveloperCourseProject.h */,
 				F76B1AA629376637000F4128 /* EssentialDeveloperCourseProject.docc */,
+				F76B1ABC2937671D000F4128 /* FeedItem.swift */,
 			);
 			path = EssentialDeveloperCourseProject;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F76B1ABD2937671D000F4128 /* FeedItem.swift in Sources */,
 				F76B1AA729376637000F4128 /* EssentialDeveloperCourseProject.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +399,7 @@
 		F76B1ABA29376638000F4128 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AH2JSYW82G;
@@ -410,6 +415,7 @@
 		F76B1ABB29376638000F4128 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AH2JSYW82G;
